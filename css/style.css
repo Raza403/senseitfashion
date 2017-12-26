@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/futura/Futura-Book.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/futura/Futura-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/futura/Futura-Book.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/futura/Futura-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/futura/Futura-Book.svg#webfont') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+  }
+
+body {font-family: 'Futura';}
+#shipping {background: black; color: white; padding: 12px 0; font-size: 15px;}
+.navbar-nav > li > a {color: black; background: none!important; text-transform: uppercase; font-size: 14px; letter-spacing: 4px;}
+.navbar-nav > li > a:hover {color: #Cea08a;}
+
+.first-container {padding-top: 300px;}
+#content [class^="container"],
+#content [class^="col-"]{
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+}
+#content [class^="col-"] [class^="col-"] {border: 0;}
+
+.navbar {background: white;}
+.heart img {height: 30px;}
+.footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
