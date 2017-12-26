@@ -26,3 +26,5 @@ body {font-family: 'Futura';}
 .navbar {background: white;}
 .heart img {height: 30px;}
 .footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
+
+.heart {padding: 15px 0;}
