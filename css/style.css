@@ -23,6 +23,10 @@ img {max-width: 100%;}
 #navbar {margin-top: 5px;}
 .navbar-nav > li > a {color: black; background: none!important; text-transform: uppercase; font-size: 14px; letter-spacing: 4px;}
 .navbar-nav > li > a:hover {color: #Cea08a;}
+.dropdown-menu > li > a {color: black;background: none!important; text-transform: uppercase; font-size: 14px}
+.dropdown-menu > li > a:hover {color: #Cea08a;}
+.dropdown-menu{border: none;box-shadow: none;}
+
 
 /* content */
 .first-container {padding-top: 230px;}

@@ -13,7 +13,7 @@
     <title> SENSE-IT fashion by Claudia Robert </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
@@ -49,7 +49,16 @@
                 <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="about">About</a></li>
+                    <li>
+                      <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Claudia Robert</a></li>
+                        <li><a href="#">SENSE-IT</a></li>
+                        <li><a href="#">Bamboo</a></li>
+                      </ul>
+                    </li>
                     <li><a href="shop">Shop</a></li>
                     <li><a href="contact">Contact</a></li>
                     <li><a href="faq">FAQ</a></li>
@@ -147,6 +156,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 
   </body>
 </html>
