@@ -27,73 +27,114 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top">
-        <div id="shipping" class="text-center">
-            Shipping all over the world
+  <nav class="navbar navbar-fixed-top">
+    <div id="shipping" class="text-center">
+      Shipping all over the world
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 text-right">
+          <a class="navbar-brand" href="#" style="float: none;">
+            <img src="../img/logo.png" alt="SENSE-IT by Claudia Robert" style="display: inline-block;" />
+          </a>
         </div>
-        <div class="container">
+        <div class="col-xs-6">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+              aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="../index.html">Home</a>
+              </li>
+              <li>
+                <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li>
+                    <a href="#">Claudia Robert</a>
+                  </li>
+                  <li>
+                    <a href="#">SENSE-IT</a>
+                  </li>
+                  <li>
+                    <a href="#">Bamboo</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="./shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="contact">Contact</a>
+              </li>
+              <li>
+                <a href="faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Added these images outside of #content because 25px border was distroying image on extra small screen size. -->
+  <div class="container-fluid first-container">
+    <div class="col-xs-12" style="height:auto;">
+      <img src="../img/about/about-main-1.webp" class="col-xs-6" style="padding:0" alt="">
+      <img src="../img/about/about-main-2.webp" class="col-xs-6" style="padding:0" alt="">
+    </div>
+  </div>
+
+  <div id="content">
+
+
+    <div class="container-fluid text-center heart">
+      <img src="../img/heart.svg" style="" />
+    </div>
+    <!-- /.container -->
+
+    <div class="col-xs-offset-3 col-xs-6 text-center">
+      <h3>ABOUT SENSE-IT</h3>
+    </div>
+
+    <div class="col-xs-12" style="height:192px;">
+      <div class="" style="height:192px;margin:0 13%">
+        <div class="col-xs-4" style="background-color:red;height:192px;"></div>
+        <div class="col-xs-4" style="background-color:blue;height:192px;"></div>
+        <div class="col-xs-4" style="background-color:green;height:192px;"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid footer" style="margin-top:350px;">
+      <div class="row">
+        <div class="col-lg-1"></div>  
+        <div class="col-lg-4 col-md-5 text-right">
+          newsletter
+        </div>
+        <div class="col-lg-2 col-md-2 text-center heart"><div id="seperator"></div></div>
+        <div class="col-lg-4 col-md-5 text-left">
             <div class="row">
-                <div class="col-xs-6 text-right">
-                    <a class="navbar-brand" href="#" style="float: none;">
-                        <img src="../img/logo.png" alt="SENSE-IT by Claudia Robert" style="display: inline-block;" />
-                    </a>
-                </div>
-                <div class="col-xs-6">
-
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                            aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbar" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    About
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li>
-                                        <a href="#">Claudia Robert</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">SENSE-IT</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Bamboo</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="shop">Shop</a>
-                            </li>
-                            <li>
-                                <a href="contact">Contact</a>
-                            </li>
-                            <li>
-                                <a href="faq">FAQ</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--/.nav-collapse -->
-
-                </div>
+              <div class="col-xs-4">Stocklist<br />About<br />Contact</div>
+              <div class="col-xs-4">Stocklist<br />About<br />Contact</div>
+              <div class="col-xs-4">Stocklist<br />About<br />Contact</div>
             </div>
         </div>
-    </nav>
-
-
-    <div id="content">
-        <div class="container-fluid first-container">
-            <div class="col-xs-12" style="background-color:red;height:100px;"></div>
-        </div>
-    </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div><!-- /.container -->
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
