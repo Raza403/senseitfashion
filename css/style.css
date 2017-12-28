@@ -38,6 +38,7 @@ img {max-width: 100%;}
 }
 #content [class^="col-"] [class^="col-"] {border: 0;}
 
+.btn-default {margin-top: 20px; width:50%;height:45px;min-width:60px;background-color:#000; color:#fff;border:0;}
 .heart {padding: 15px 0;}
 .heart img {height: 48px;}
 
