@@ -1,5 +1,15 @@
 
 @font-face {
+  font-family: 'Futura';
+  src: url('../fonts/futura/Futura-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/futura/Futura-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/futura/Futura-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/futura/Futura-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/futura/Futura-Light.svg#webfont') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
     font-family: 'Futura';
     src: url('../fonts/futura/Futura-Book.eot'); /* IE9 Compat Modes */
     src: url('../fonts/futura/Futura-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -9,11 +19,31 @@
     font-style: normal;
     font-weight: 400;
   }
+  @font-face {
+    font-family: 'Futura';
+    src: url('../fonts/futura/Futura-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/futura/Futura-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/futura/Futura-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/futura/Futura-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/futura/Futura-Medium.svg#webfont') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Futura';
+    src: url('../fonts/futura/Futura-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/futura/Futura-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/futura/Futura-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/futura/Futura-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/futura/Futura-Bold.svg#webfont') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+  }
 
-body {font-family: 'Futura';}
+body {font-family: 'Futura'; font-weight: 300;}
 img {max-width: 100%;}
 
-#shipping {background: black; color: white; padding: 12px 0; font-size: 15px;}
+#shipping {background: black; color: white; padding: 11px 0; font-size: 16px; font-weight: 300;}
 
 
 /* navbar */
@@ -21,7 +51,7 @@ img {max-width: 100%;}
 .navbar {background: white;}
 .navbar-brand img {margin: 15px;}
 #navbar {margin-top: 5px;}
-.navbar-nav > li > a {color: black; background: none!important; text-transform: uppercase; font-size: 14px; letter-spacing: 4px;}
+.navbar-nav > li > a {color: black; background: none!important; text-transform: uppercase; font-size: 14px; letter-spacing: 4px; font-weight: 400;}
 .navbar-nav > li > a:hover {color: #Cea08a;}
 .dropdown-menu > li > a {color: black;background: none!important; text-transform: uppercase; font-size: 14px}
 .dropdown-menu > li > a:hover {color: #Cea08a;}
