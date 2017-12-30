@@ -76,4 +76,4 @@ img {max-width: 100%;}
 .footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
 .shop-footer{border-top: 1px solid black; margin: 100px 65px; padding: 0;}
 #seperator {width: 1px; height: 60px; background: black; display: inline-block;}
-.input-footer{border:none; border-bottom: 1px solid #000; margin:10px 0;color:black;}
+.input-footer{border:none; border-bottom: 1px solid #000; margin:10px 0;color:black;background-color: none;}
