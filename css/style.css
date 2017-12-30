@@ -71,8 +71,8 @@ img {max-width: 100%;}
 .btn-default {margin-top: 20px; width:50%;height:45px;min-width:60px;background-color:#000; color:#fff;border:0;}
 .heart {padding: 15px 0;}
 .heart img {height: 48px;}
-.btn-shopnow{width:100px;line-height: 15px;background-color: #000;color:white;font-weight: bold;}
-.btn-shopnow:hover{background-color: #2B6CA3;}
+.btn-shopnow{width:80px;line-height: 20px;background-color: #000;color:white;font-weight: bold;}
+.btn-shopnow:hover{background-color: #2B6CA3;color:white;}
 
 /* footer */
 .footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
