@@ -78,7 +78,7 @@ img {max-width: 100%;}
 .carousel-text a:hover, .carousel-text:focus, .carousel-text:active{background-color: #Cea08a;color:white;}
 .btn-readmore{background-color:black;color:white;line-height:20px;width:130px;transition: background-color 0.4s ease 0s;}
 .btn-readmore:hover, .btn-readmore:focus, .btn-readmore:active{background-color: #808080;color: white;}
-.ga-naar{background-color:black;color:white;line-height:20px;width:150px;}
+.ga-naar{background-color:black;color:white;line-height:20px;width:150px;transition: background-color 0.4s ease 0s;}
 .ga-naar:hover, .ga-naar:focus, .ga-naar:active{background-color: #555555; color: white;}
 
 /* footer */
