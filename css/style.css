@@ -51,9 +51,9 @@ img {max-width: 100%;}
 .navbar {background: white;}
 .navbar-brand img {margin: 15px;}
 #navbar {margin-top: 5px;}
-.navbar-nav > li > a {color: black; background: none!important; text-transform: uppercase; font-size: 14px; letter-spacing: 4px; font-weight: 400;}
+.navbar-nav > li > a {color: black; background: none!important; text-transform: uppercase; font-size: 14px; letter-spacing: 4px; font-weight: 400;transition: color 0.4s ease 0s;}
 .navbar-nav > li > a:hover {color: #Cea08a;}
-.dropdown-menu > li > a {color: black;background: none!important; text-transform: uppercase; font-size: 14px}
+.dropdown-menu > li > a {color: black;background: none!important; text-transform: uppercase; font-size: 14px;transition: color 0.4s ease 0s;}
 .dropdown-menu > li > a:hover {color: #Cea08a;}
 .dropdown-menu{border: none;box-shadow: none;}
 
