@@ -81,6 +81,12 @@ img {max-width: 100%;}
 .btn-readmore:hover, .btn-readmore:focus, .btn-readmore:active{background-color: #808080;color: white;}
 .ga-naar{background-color:black;color:white;line-height:20px;width:150px;}
 .ga-naar:hover, .ga-naar:focus, .ga-naar:active{background-color: #555555; color: white;}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red; opacity: 1; /* Firefox */}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */color: red;}
+
+::-ms-input-placeholder { /* Microsoft Edge */color: red;}
 
 /* footer */
 .footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
