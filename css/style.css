@@ -77,8 +77,7 @@ img {max-width: 100%;}
 .shop-footer{border-top: 1px solid black; margin: 100px 65px; padding: 0;}
 #seperator {width: 1px; height: 60px; background: black; display: inline-block;}
 .input-footer{border:none;box-shadow:none;border-bottom: 1px solid #000; margin:10px 0;color:#000; background-color:transparent;border-radius:0px;}
-.input-footer :hover{border:none;box-shadow:none;border-bottom: 1px solid #000; margin:10px 0;color:#000; background-color:transparent;border-radius:0px;}
-.input-footer :focus{border:none;box-shadow:none;border-bottom: 1px solid #000; margin:10px 0;color:#000; background-color:transparent;border-radius:0px;}
-.input-footer :active{border:none;box-shadow:none;border-bottom: 1px solid #000; margin:10px 0;color:#000; background-color:transparent;border-radius:0px;}
+.input-footer:focus{border:none;box-shadow:none;border-bottom: 1px solid #000; margin:10px 0;color:#000; background-color:transparent;border-radius:0px;}
+.input-footer:active{border:none;box-shadow:none;border-bottom: 1px solid #000; margin:10px 0;color:#000; background-color:transparent;border-radius:0px;}
 
 .footer-button{border: 1px solid #000; border-radius:0px;margin:10px 0;background-color: transparent;}
