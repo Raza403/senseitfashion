@@ -84,6 +84,7 @@ p{font-size: 22px;word-wrap: break-word;}
 .ga-naar:hover, .ga-naar:focus, .ga-naar:active{background-color: #555555; color: white;}
 .rad0{border-radius: 0px;}
 .bdr-black{border: 1px solid black;}
+.bdr-black:focus, .bdr-black:active{border: 1px solid black;}
 .ls15{letter-spacing: 0.15em;}
 .pl0{padding-left: 0 !important;}
 a {text-decoration: none;}
