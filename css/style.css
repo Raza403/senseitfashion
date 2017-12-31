@@ -42,6 +42,7 @@
 
 body {font-family: 'Futura'; font-weight: 300;}
 img {max-width: 100%;}
+p{font-size: 22px;word-wrap: break-word;}
 
 #shipping {background: black; color: white; padding: 11px 0; font-size: 16px; font-weight: 300;}
 
@@ -60,7 +61,7 @@ img {max-width: 100%;}
 
 /* content */
 .first-container {padding-top: 230px;}
-p{font-size: 22px;word-wrap: break-word;}
+
 
 #content [class^="container"],
 #content [class^="col-"]{
