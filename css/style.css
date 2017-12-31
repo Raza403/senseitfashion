@@ -92,6 +92,7 @@ a:hover, a:focus, a:active{text-decoration: none;}
 .p-25{padding:35px 0;}
 .f-18{font-size: 18px;color: black;}
 input::placeholder {color: black !important;}
+.item img{position:center center no-repeat; background-size: cover; height: 500px;}
 
 /* footer */
 .footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
