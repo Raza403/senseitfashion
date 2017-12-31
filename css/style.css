@@ -81,7 +81,7 @@ p{font-size: 22px;word-wrap: break-word;}
 .carousel-text a:hover, .carousel-text:focus, .carousel-text:active{background-color: #Cea08a;color:white;}
 .btn-readmore{background-color:black;color:white;line-height:20px;width:130px;}
 .btn-readmore:hover, .btn-readmore:focus, .btn-readmore:active{background-color: #808080;color: white;}
-.ga-naar{background-color:black;color:white;line-height:20px;width:150px;}
+.ga-naar{background-color:black;color:white;line-height:20px;width:150px;margin-top: 50px;}
 .ga-naar:hover, .ga-naar:focus, .ga-naar:active{background-color: #555555; color: white;}
 .rad0{border-radius: 0px;}
 .bdr-black{border: 1px solid black;}
