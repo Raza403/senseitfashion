@@ -112,7 +112,7 @@ input::placeholder {color: black !important;}
    background-image: -o-linear-gradient(top, #505050, #7D7D7D);
    background-image: linear-gradient(to bottom, #505050, #7D7D7D);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#505050, endColorstr=#7D7D7D);
   }
-  #navbar li ul{display: none;position: absolute;width: inherit;list-style: none;color:black;transition:background-color 0.4s ease }
+  #navbar li ul{display: none;position: absolute;width: inherit;padding:0;list-style: none;color:black;transition:background-color 0.4s ease }
   #navbar li:hover ul{display: block;}
   #navbar li:hover ul a {color: black;transition: color 0.4s ease}
   #navbar li ul a:hover {color: #E4B58A;}
