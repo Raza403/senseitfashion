@@ -42,7 +42,6 @@
 
 body {font-family: 'Futura'; font-weight: 300;}
 img {max-width: 100%;}
-p{font-size: 22px;word-wrap: break-word;}
 
 #shipping {background: black; color: white; padding: 11px 0; font-size: 16px; font-weight: 300;}
 
@@ -61,7 +60,7 @@ p{font-size: 22px;word-wrap: break-word;}
 
 /* content */
 .first-container {padding-top: 230px;}
-
+p{font-size: 22px;word-wrap: break-word;}
 
 #content [class^="container"],
 #content [class^="col-"]{
@@ -81,7 +80,7 @@ p{font-size: 22px;word-wrap: break-word;}
 .carousel-text a:hover, .carousel-text:focus, .carousel-text:active{background-color: #Cea08a;color:white;}
 .btn-readmore{background-color:black;color:white;line-height:20px;width:130px;}
 .btn-readmore:hover, .btn-readmore:focus, .btn-readmore:active{background-color: #808080;color: white;}
-.ga-naar{background-color:black;color:white;line-height:20px;width:150px;margin-top: 50px;}
+.ga-naar{background-color:black;color:white;line-height:20px;width:150px;}
 .ga-naar:hover, .ga-naar:focus, .ga-naar:active{background-color: #555555; color: white;}
 .rad0{border-radius: 0px;}
 .bdr-black{border: 1px solid black;}
@@ -113,6 +112,11 @@ input::placeholder {color: black !important;}
    background-image: -o-linear-gradient(top, #505050, #7D7D7D);
    background-image: linear-gradient(to bottom, #505050, #7D7D7D);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#505050, endColorstr=#7D7D7D);
   }
+  #navbar li ul{display: none;position: absolute;width: inherit;list-style: none;color:black;transition:background-color 0.4s ease }
+  #navbar li:hover ul{display: block;}
+  #navbar li:hover ul a {color: black;transition: color 0.4s ease}
+  #navbar li ul a:hover {color: #E4B58A;}
+  
 
 /* footer */
 .footer {border-top: 1px solid black; margin: 0 65px; padding: 0;}
