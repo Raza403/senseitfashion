@@ -13,7 +13,7 @@
             </div>
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon2">
-                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <i id="email-fa" class="fa fa-envelope-o" aria-hidden="true"></i>
               </span>
               <input type="email" id="email" class="form-control input-footer" placeholder="Email" aria-describedby="basic-addon2">
             </div>
@@ -45,6 +45,7 @@
       var y = document.getElementById("username").value;
       if(x == ""){
         document.getElementById("email").style.borderBottom = "2px solid red";
+        document.getElementById("email-fa").style.borderBottom = "2px solid red";
       }
     }
 </script>
