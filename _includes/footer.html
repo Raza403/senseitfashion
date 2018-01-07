@@ -40,10 +40,10 @@
 <script src="../js/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script>
-var x = document.getElementById("email").value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
+    function formValidate(){
+      if(document.getElementById("email").value == ""){
+        alert("Email empty");
+      }
     }
 </script>
 </body>
