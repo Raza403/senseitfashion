@@ -50,11 +50,15 @@
       if(x == ""){
         document.getElementById("email").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
+        return false;
       }
       if(y == ""){
         document.getElementById("username").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
+        return false;
       }
+      else
+      return true;
 
     }
 </script>
