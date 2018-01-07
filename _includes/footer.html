@@ -44,9 +44,14 @@
       var x = document.getElementById("email").value;
       var y = document.getElementById("username").value;
       if(x == ""){
-        x.style.borderBottom = "2px solid red";
+        document.getElementById("email").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
       }
+      if(y == ""){
+        document.getElementById("username").style.borderBottom = "2px solid red";
+        document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
+      }
+
     }
 </script>
 </body>
