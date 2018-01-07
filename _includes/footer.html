@@ -44,13 +44,19 @@
 <script src="../js/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script>
+
+  // Function used to Validate the form input
     function formValidate(){
       var x = document.getElementById("email").value;
       var y = document.getElementById("username").value;
+   
+      // Getting all styles back to default, so that previous errors messages may be washed
       document.getElementById("username").style.borderBottom = "1px solid black";
       document.getElementById("email").style.borderBottom = "1px solid black";
       document.getElementById("basic-addon1").style.borderBottom = "1px solid black";
       document.getElementById("basic-addon2").style.borderBottom = "1px solid black";
+ 
+      // If x and y both ampty then do following and return false, there is no need to check further
       if (x == "" && y == ""){
         document.getElementById("all").style.display = "block";
         document.getElementById("email-p").style.display = "none";
@@ -60,18 +66,26 @@
         document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
         return false;
       }
+   
+      // If only email is empty then do the following
       if(x == ""){
         document.getElementById("email").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
         document.getElementById("all").style.display = "none";
         document.getElementById("email-p").style.display = "block";
+        return false;
       }
+
+      // If only username is empty then do the following
       if(y == ""){
         document.getElementById("username").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
         document.getElementById("all").style.display = "block";
         document.getElementById("email-p").style.display = "none";
+        return false;
       }
+
+      // else return true
       else
       return true;
 
