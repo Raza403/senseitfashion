@@ -1,41 +1,63 @@
 <div class="container-fluid footer" style="margin-top:100px;">
-        <div class="row">
-          <div class="col-lg-1"></div>  
-          <div class="col-lg-4 col-md-5 text-right">
-            <p style="letter-spacing:0.15em;word-wrap:break-word;margin-top:10px;color:#000;" class="font1">JOIN OUR NEWSLETTER</p>
-        <form action="submit">
-          <div class="form-group">
-            <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1">
-                <i class="fa fa-user" aria-hidden="true"></i>
-              </span>
-              <input type="text" id="username" class="form-control input-footer font1" placeholder="Name" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group">
-              <span class="input-group-addon" id="basic-addon2">
-                  <i  class="fa fa-envelope-o" aria-hidden="true"></i>
-              </span>
-              <input type="email" id="email" class="form-control input-footer" placeholder="Email" aria-describedby="basic-addon2">
-            </div>
-            <button type="button" onclick="return formValidate()" style="font-family:Arial, Helvetica, sans-serif;width:100%;" class="btn footer-button">Schrijf je hier in!</button>
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-4 col-md-5 text-right">
+      <p style="letter-spacing:0.15em;word-wrap:break-word;margin-top:10px;color:#000;" class="font1">JOIN OUR NEWSLETTER</p>
+      <form action="submit">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </span>
+            <input type="text" id="username" class="form-control input-footer font1" placeholder="Name" aria-describedby="basic-addon1">
           </div>
-          <div class="text-center">
-            <p class="small" id="all" style="color:red;display:none;">Please fill in all required fields</p>
-            <p class="small" id="email-p" style="color:red;display:none;">Please fill in a valid email address</p>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon2">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </span>
+            <input type="email" id="email" class="form-control input-footer" placeholder="Email" aria-describedby="basic-addon2">
           </div>
-        </form>
-          </div>
-          <div class="col-lg-2 col-md-2 text-center heart"><div id="seperator"></div></div>
-          <div class="col-lg-4 col-md-5 text-left" style="margin-top:50px;">
-              <div class="row">
-                <div class="col-xs-4 footer-a"><a>Stocklist</a><br /><a>About</a><br /><a>Contact</a></div>
-                <div class="col-xs-4 footer-a"><a>FAQ</a><br /><a>Shipping &amp; returns</a><br /><a>Store Policy</a></div>
-                <div class="col-xs-4 footer-a" style="text-decoration:underline;"><a>Facebook</a><br /><a>Instagram</a><br /><a>Pinterest</a></div>
-              </div>
-          </div>
-          <div class="col-lg-1"></div>
-        </div></a>
-      </div><!-- /.container -->
+          <button type="button" onclick="return formValidate()" style="font-family:Arial, Helvetica, sans-serif;width:100%;" class="btn footer-button">Schrijf je hier in!</button>
+        </div>
+        <div class="text-center">
+          <p class="small" id="all" style="color:red;display:none;">Please fill in all required fields</p>
+          <p class="small" id="email-p" style="color:red;display:none;">Please fill in a valid email address</p>
+        </div>
+      </form>
+    </div>
+    <div class="col-lg-2 col-md-2 text-center heart">
+      <div id="seperator"></div>
+    </div>
+    <div class="col-lg-4 col-md-5 text-left" style="margin-top:50px;">
+      <div class="row">
+        <div class="col-xs-4 footer-a">
+          <a>Stocklist</a>
+          <br />
+          <a>About</a>
+          <br />
+          <a>Contact</a>
+        </div>
+        <div class="col-xs-4 footer-a">
+          <a>FAQ</a>
+          <br />
+          <a>Shipping &amp; returns</a>
+          <br />
+          <a>Store Policy</a>
+        </div>
+        <div class="col-xs-4 footer-a" style="text-decoration:underline;">
+          <a>Facebook</a>
+          <br />
+          <a>Instagram</a>
+          <br />
+          <a>Pinterest</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-1"></div>
+  </div>
+  </a>
+</div>
+<!-- /.container -->
 
 
 <!-- Bootstrap core JavaScript
@@ -44,52 +66,53 @@
 <script src="../js/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script>
-
   // Function used to Validate the form input
-    function formValidate(){
-      var x = document.getElementById("email").value;
-      var y = document.getElementById("username").value;
-   
-      // Getting all styles back to default, so that previous errors messages may be washed
-      document.getElementById("username").style.borderBottom = "1px solid black";
-      document.getElementById("email").style.borderBottom = "1px solid black";
-      document.getElementById("basic-addon1").style.borderBottom = "1px solid black";
-      document.getElementById("basic-addon2").style.borderBottom = "1px solid black";
- 
-      // If x and y both ampty then do following and return false, there is no need to check further
-      if (x == "" && y == ""){
-        document.getElementById("all").style.display = "block";
-        document.getElementById("email-p").style.display = "none";
-        document.getElementById("email").style.borderBottom = "2px solid red";
-        document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
-        document.getElementById("username").style.borderBottom = "2px solid red";
-        document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
-        return false;
-      }
-   
-      // If only email is empty then do the following
-      if(x == ""){
-        document.getElementById("email").style.borderBottom = "2px solid red";
-        document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
-        document.getElementById("all").style.display = "none";
-        document.getElementById("email-p").style.display = "block";
-        return false;
-      }
+  function formValidate() {
+    var x = document.getElementById("email").value;
+    var y = document.getElementById("username").value;
 
-      // If only username is empty then do the following
-      if(y == ""){
-        document.getElementById("username").style.borderBottom = "2px solid red";
-        document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
-        document.getElementById("all").style.display = "block";
-        document.getElementById("email-p").style.display = "none";
-        return false;
-      }
+    // Getting all styles back to default, so that previous errors messages may be washed
+    document.getElementById("username").style.borderBottom = "1px solid black";
+    document.getElementById("email").style.borderBottom = "1px solid black";
+    document.getElementById("basic-addon1").style.borderBottom = "1px solid black";
+    document.getElementById("basic-addon2").style.borderBottom = "1px solid black";
 
-      // else return true
-      else
-      return true;
-
+    // If x and y both ampty then do following and return false, there is no need to check further
+    if (x == "" && y == "") {
+      document.getElementById("all").style.display = "block";
+      document.getElementById("email-p").style.display = "none";
+      document.getElementById("email").style.borderBottom = "2px solid red";
+      document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
+      document.getElementById("username").style.borderBottom = "2px solid red";
+      document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
+      return false;
     }
+
+    // If only email is empty then do the following
+    if (x == "") {
+      document.getElementById("email").style.borderBottom = "2px solid red";
+      document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
+      document.getElementById("all").style.display = "none";
+      document.getElementById("email-p").style.display = "block";
+      return false;
+    }
+
+    // If only username is empty then do the following
+    if (y == "") {
+      document.getElementById("username").style.borderBottom = "2px solid red";
+      document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
+      document.getElementById("all").style.display = "block";
+      document.getElementById("email-p").style.display = "none";
+      return false;
+    }
+
+    // else remove error messages and return true
+    else {
+      document.getElementById("all").style.display = "none";
+      document.getElementById("email-p").style.display = "none";
+      return true;
+    }
+  }
 </script>
 </body>
 
