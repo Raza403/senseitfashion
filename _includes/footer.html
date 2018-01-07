@@ -41,8 +41,9 @@
 <script src="../js/bootstrap.min.js"></script>
 <script>
     function formValidate(){
-      if(document.getElementById("email").value == ""){
-        alert("Email empty");
+      var x = document.getElementById("email").value;
+      if(x == ""){
+        alert("Email Error")
       }
     }
 </script>
