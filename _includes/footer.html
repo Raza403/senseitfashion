@@ -50,15 +50,26 @@
       if (x == "" && y == ""){
         document.getElementById("all").style.display = "block";
         document.getElementById("email-p").style.display = "none";
+        document.getElementById("email").style.borderBottom = "2px solid red";
+        document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
+        document.getElementById("username").style.borderBottom = "2px solid red";
+        document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
+        return false;
       }
       if(x == ""){
         document.getElementById("email").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon2").style.borderBottom = "2px solid red";
+        document.getElementById("all").style.display = "none";
+        document.getElementById("email-p").style.display = "block";
       }
       if(y == ""){
         document.getElementById("username").style.borderBottom = "2px solid red";
         document.getElementById("basic-addon1").style.borderBottom = "2px solid red";
+        document.getElementById("all").style.display = "block";
+        document.getElementById("email-p").style.display = "none";
       }
+      else
+      return true;
 
     }
 </script>
